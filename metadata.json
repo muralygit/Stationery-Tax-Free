@@ -1,0 +1,6 @@
+{
+  "name": "Stationery Invoice (Tax-Free)",
+  "description": "A Capacitor-based hybrid Android app for tax-free stationery invoice billing, inventory, customer accounts, and printing.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Stationery Invoice</string>
+    <string name="title_activity_main">Stationery Invoice</string>
+    <string name="package_name">com.muraly.stfree</string>
+    <string name="custom_url_scheme">com.muraly.stfree</string>
+</resources>
