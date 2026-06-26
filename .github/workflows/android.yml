@@ -35,8 +35,12 @@ jobs:
           java-version: '21'
           distribution: 'zulu'
 
-      - name: Make Gradle Wrapper Executable
-        run: chmod +x android/gradlew
+      - name: Fix Gradle Wrapper
+        run: |
+          rm -f android/gradle/wrapper/gradle-wrapper.jar
+          cd android
+          gradle wrapper --gradle-version 8.13.0
+          chmod +x gradlew
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
